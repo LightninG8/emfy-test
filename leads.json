@@ -1,0 +1,414 @@
+{
+  "_page": 1,
+  "_links": {
+    "self": {
+      "href": "https://tovkessler.amocrm.ru/api/v4/leads?page=1&limit=250"
+    }
+  },
+  "_embedded": {
+    "leads": [
+      {
+        "id": 42851,
+        "name": "Сделка #42851",
+        "price": 1000,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570244,
+        "updated_at": 1707570245,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42851?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104449,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104449?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42855,
+        "name": "Сделка #42855",
+        "price": 1234567,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570278,
+        "updated_at": 1707570278,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42855?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104449,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104449?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42861,
+        "name": "Сделка #42861",
+        "price": 555,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570304,
+        "updated_at": 1707570304,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42861?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": []
+        }
+      },
+      {
+        "id": 42863,
+        "name": "Сделка #42863",
+        "price": 4990,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570318,
+        "updated_at": 1707570318,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42863?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": []
+        }
+      },
+      {
+        "id": 42865,
+        "name": "Сделка #42865",
+        "price": 12500,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570341,
+        "updated_at": 1707570342,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42865?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104461,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104461?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42867,
+        "name": "Сделка #42867",
+        "price": 2000,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570352,
+        "updated_at": 1707570357,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42867?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": []
+        }
+      },
+      {
+        "id": 42869,
+        "name": "Сделка #42869",
+        "price": 2000,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570382,
+        "updated_at": 1707570387,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42869?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104465,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104465?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42877,
+        "name": "Сделка #42877",
+        "price": 6789,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570439,
+        "updated_at": 1707570444,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42877?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104471,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104471?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42881,
+        "name": "Сделка #42881",
+        "price": 234,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570471,
+        "updated_at": 1707570479,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42881?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104477,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104477?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42875,
+        "name": "Сделка #42875",
+        "price": 8765,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570427,
+        "updated_at": 1707570487,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42875?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104471,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104471?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 42871,
+        "name": "Сделка #42871",
+        "price": 63456,
+        "responsible_user_id": 10653902,
+        "group_id": 0,
+        "status_id": 64136574,
+        "pipeline_id": 7781258,
+        "loss_reason_id": null,
+        "created_by": 10653902,
+        "updated_by": 10653902,
+        "created_at": 1707570393,
+        "updated_at": 1707570493,
+        "closed_at": null,
+        "closest_task_at": null,
+        "is_deleted": false,
+        "custom_fields_values": null,
+        "score": null,
+        "account_id": 31558842,
+        "labor_cost": null,
+        "_links": {
+          "self": {
+            "href": "https://tovkessler.amocrm.ru/api/v4/leads/42871?page=1&limit=250"
+          }
+        },
+        "_embedded": {
+          "tags": [],
+          "companies": [
+            {
+              "id": 104465,
+              "_links": {
+                "self": {
+                  "href": "https://tovkessler.amocrm.ru/api/v4/companies/104465?page=1&limit=250"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

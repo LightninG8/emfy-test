@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --color-black: #3b3a3d;
+  --color-gray-1: #3b3a3d;
+  --color-gray-2: #9f9ca5;
+  --color-gray-3: #d3cedb;
+  --color-purple-1: #8b7aa8;
+  --color-purple-2: #f4ecff;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ---------- HEADER ---------- */
+.header {
+  background-color: var(--color-black);
+}
+
+.header__body {
+  padding: 15px 0;
+}
+
+.header__title {
+  font-size: 2.6rem;
+  color: var(--color-white);
+}
+
+/* ---------- MAIN ---------- */
+.main__body {
+  padding: 40px 0;
+}
+
+.main__table {
+  margin-top: 20px;
+}
+
+/* ---------- TABLE ---------- */
+.table {
+  font-size: 1.6rem;
+}
+
+.table__title {
+  font-size: 2.2rem;
+}
+
+.table__body {
+  margin-top: 20px;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 15px;
+}
+
+.table__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table__limit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.table__filters {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.table__heading {
+  color: var(--color-white);
+
+  background: var(--color-purple-1);
+  border-radius: 10px;
+}
+
+.table__row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.table__column {
+  padding: 20px;
+}
+
+.column {
+  background: var(--color-purple-2);
+  border-radius: 10px;
+}
+
+.table__pagination {
+  margin-top: 20px;
+}
+
+.pagination__body {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pagination__page {
+  padding: 2px 6px;
+
+  font-size: 1.4rem;
+
+  background: var(--color-gray-3);
+  border-radius: 5px;
+
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.pagination__page:hover {
+  background: var(--color-gray-2);
+}
+
+.pagination__page.active,
+.pagination__page:active {
+  background: var(--color-gray-1);
+  color: var(--color-white);
+}
+
+.table__loading {
+  display: none;
+}
+.table__loading.active {
+  display: flex;
+  justify-content: center;
+}

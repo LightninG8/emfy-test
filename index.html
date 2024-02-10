@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Emfy Test</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__body container">
+      <h1 class="header__title">EMFY Test</h1>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__body container">
+      <div class="main__table table">
+        <div class="table__header">
+          <h2 class="table__title">Список сделок</h2>
+          <div class="table__filters">
+            <div class="table__limit limit">
+              <div class="limit__title">Показывать по:</div>
+              <select class="limit__select limit">
+                <option value="2">2</option>
+                <option value="5" selected>5</option>
+                <option value="10">10</option>
+                <option value="-1">Все</option>
+              </select>
+            </div>
+            <div class="table__limit limit">
+              <div class="limit__title">Сортировать по по:</div>
+              <select class="limit__select sort">
+                <option value="budgetUp">По увеличению бюджета</option>
+                <option value="budgetDown">По уменьшению бюджета</option>
+                <option value="nameUp" selected>В алфавитном порядке (А-Я)</option>
+                <option value="nameDown">В алфавитном порядке (Я-А)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="table__body"></div>
+        <div class="table__pagination pagination">
+          <div class="pagination__body"></div>
+        </div>
+        <div class="table__loading">
+          <div class="loadingio-spinner-spinner-g3asbqy4d9l"><div class="ldio-h8bv14v1hj">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </div></div>
+            <style type="text/css">
+            @keyframes ldio-h8bv14v1hj {
+              0% { opacity: 1 }
+              100% { opacity: 0 }
+            }
+            .ldio-h8bv14v1hj div {
+              left: 47px;
+              top: 24px;
+              position: absolute;
+              animation: ldio-h8bv14v1hj linear 1s infinite;
+              background: #8b7aa8;
+              width: 6px;
+              height: 12px;
+              border-radius: 2.4px / 2.4px;
+              transform-origin: 3px 26px;
+            }.ldio-h8bv14v1hj div:nth-child(1) {
+              transform: rotate(0deg);
+              animation-delay: -0.9166666666666666s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(2) {
+              transform: rotate(30deg);
+              animation-delay: -0.8333333333333334s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(3) {
+              transform: rotate(60deg);
+              animation-delay: -0.75s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(4) {
+              transform: rotate(90deg);
+              animation-delay: -0.6666666666666666s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(5) {
+              transform: rotate(120deg);
+              animation-delay: -0.5833333333333334s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(6) {
+              transform: rotate(150deg);
+              animation-delay: -0.5s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(7) {
+              transform: rotate(180deg);
+              animation-delay: -0.4166666666666667s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(8) {
+              transform: rotate(210deg);
+              animation-delay: -0.3333333333333333s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(9) {
+              transform: rotate(240deg);
+              animation-delay: -0.25s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(10) {
+              transform: rotate(270deg);
+              animation-delay: -0.16666666666666666s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(11) {
+              transform: rotate(300deg);
+              animation-delay: -0.08333333333333333s;
+              background: #8b7aa8;
+            }.ldio-h8bv14v1hj div:nth-child(12) {
+              transform: rotate(330deg);
+              animation-delay: 0s;
+              background: #8b7aa8;
+            }
+            .loadingio-spinner-spinner-g3asbqy4d9l {
+              width: 78px;
+              height: 78px;
+              display: inline-block;
+              overflow: hidden;
+              background: none;
+            }
+            .ldio-h8bv14v1hj {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              transform: translateZ(0) scale(0.78);
+              backface-visibility: hidden;
+              transform-origin: 0 0; /* see note above */
+            }
+            .ldio-h8bv14v1hj div { box-sizing: content-box; }
+            /* generated by https://loading.io/ */
+            </style>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
